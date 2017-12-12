@@ -1,0 +1,46 @@
+.fa{
+	font-size: 2em;
+	padding-top: 0.5em;
+	padding-right: 2em;
+}
+.info{
+	padding-bottom: 2vh;
+}
+.container-info{
+	border-bottom: 1px solid #D5D5D5;
+	padding-bottom: 3vh;
+
+}
+.span-name{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 4vh;
+
+}
+
+.trash-icon{
+	text-align: right;
+}
+/* modal*/
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
